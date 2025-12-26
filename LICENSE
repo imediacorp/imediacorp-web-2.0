@@ -1,0 +1,106 @@
+Copyright (c) 2025 Intermedia Communications Corp
+All rights reserved.
+
+WEBSITE CODE LICENSE
+===================
+
+This repository contains the public-facing website code for imediacorp.com.
+
+GRANT OF LICENSE
+----------------
+
+Subject to the terms and conditions of this license, Intermedia Communications Corp grants you a 
+limited, non-exclusive, non-transferable license to:
+
+1. VIEW and STUDY the source code
+2. FORK the repository for personal or educational purposes
+3. CONTRIBUTE improvements via pull requests
+4. USE the code as a reference for building similar websites
+
+PROHIBITED USES
+---------------
+
+WITHOUT EXPRESS WRITTEN PERMISSION, you may NOT:
+
+1. Use this code to create competing websites or services
+2. Copy substantial portions of the code for commercial purposes
+3. Remove or modify copyright notices
+4. Use the CHADD™, Rhapsode, Harmonia, or Production Desk trademarks
+5. Claim ownership or authorship of this code
+6. Use this code in a way that violates the rights of Intermedia Communications Corp
+
+CHADD TECHNOLOGY
+----------------
+
+This license applies ONLY to the website code. The underlying CHADD technology, methodologies, 
+algorithms, and proprietary intellectual property remain the exclusive property of Intermedia 
+Communications Corp and are NOT licensed under this agreement.
+
+For licensing inquiries regarding CHADD technology, please contact:
+- Email: contact@imediacorp.com
+- Website: https://imediacorp.com/contact
+
+CONTRIBUTIONS
+-------------
+
+By contributing to this repository, you agree that:
+
+1. Your contributions will be licensed under the same terms as this repository
+2. You grant Intermedia Communications Corp the right to use your contributions
+3. You have the right to submit the contributions
+4. Your contributions do not violate any third-party rights
+
+ATTRIBUTION
+-----------
+
+If you use this code as a reference or base for your own project, you must:
+
+1. Include attribution to Intermedia Communications Corp
+2. Include a link to https://imediacorp.com
+3. Clearly indicate that your project is not affiliated with or endorsed by Intermedia Communications Corp
+
+DISCLAIMER OF WARRANTY
+----------------------
+
+THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT 
+NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND 
+NONINFRINGEMENT.
+
+LIMITATION OF LIABILITY
+-----------------------
+
+IN NO EVENT SHALL INTERMEDIA COMMUNICATIONS CORP BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN 
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+TRADEMARKS
+----------
+
+CHADD™, Rhapsode, Harmonia, Production Desk, and imediacorp are trademarks of Intermedia 
+Communications Corp. This license does not grant you any rights to use these trademarks.
+
+TERMINATION
+-----------
+
+This license automatically terminates if you violate any term of this license. Upon termination, 
+you must immediately cease all use and destroy all copies.
+
+GOVERNING LAW
+-------------
+
+This license is governed by the laws of Canada, without regard to conflict of law principles.
+
+QUESTIONS
+---------
+
+For licensing questions or commercial inquiries:
+
+Intermedia Communications Corp
+Email: contact@imediacorp.com
+Website: https://imediacorp.com
+
+---
+
+Last Updated: January 2025
+Version: 1.0
+

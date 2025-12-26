@@ -1,0 +1,112 @@
+{
+  "name": "CHADD Dashboard Suite",
+  "short_name": "CHADD",
+  "description": "Complex Health Assessment and Diagnostic Dynamics - Modern Web Dashboards",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "orientation": "any",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Electric Vehicle Dashboard",
+      "short_name": "EV Dashboard",
+      "description": "View electric vehicle diagnostics",
+      "url": "/dashboards/electric-vehicle",
+      "icons": [{ "src": "/icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Gas Vehicle Dashboard",
+      "short_name": "Gas Vehicle",
+      "description": "View gas vehicle engine diagnostics",
+      "url": "/dashboards/gas-vehicle",
+      "icons": [{ "src": "/icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Business Health",
+      "short_name": "Business",
+      "description": "View business health metrics",
+      "url": "/dashboards/business",
+      "icons": [{ "src": "/icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Portfolio Risk",
+      "short_name": "Portfolio",
+      "description": "View portfolio risk analysis",
+      "url": "/dashboards/portfolio-risk",
+      "icons": [{ "src": "/icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Medical Dashboard",
+      "short_name": "Medical",
+      "description": "View medical diagnostics",
+      "url": "/dashboards/medical",
+      "icons": [{ "src": "/icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Grid Dashboard",
+      "short_name": "Grid",
+      "description": "View grid substation monitoring",
+      "url": "/dashboards/grid",
+      "icons": [{ "src": "/icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Solar Dashboard",
+      "short_name": "Solar",
+      "description": "View solar plant performance",
+      "url": "/dashboards/solar",
+      "icons": [{ "src": "/icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Wind Dashboard",
+      "short_name": "Wind",
+      "description": "View wind farm monitoring",
+      "url": "/dashboards/wind",
+      "icons": [{ "src": "/icon-192x192.png", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["productivity", "business", "medical", "utilities", "finance"],
+  "screenshots": [],
+  "prefer_related_applications": false,
+  "share_target": {
+    "action": "/api/share",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url",
+      "files": [
+        {
+          "name": "file",
+          "accept": ["application/json", "text/csv", ".json", ".csv"]
+        }
+      ]
+    }
+  },
+  "file_handlers": [
+    {
+      "action": "/api/dashboard/import",
+      "accept": {
+        "application/json": [".json"],
+        "text/csv": [".csv"]
+      }
+    }
+  ]
+}
+
